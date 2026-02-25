@@ -1,0 +1,50 @@
+# ============== MAVEN ==============
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ============== IDE - IntelliJ IDEA ==============
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ============== IDE - Eclipse ==============
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ============== IDE - VS Code ==============
+.vscode/
+
+# ============== LOGS ==============
+*.log
+logs/
+
+# ============== COMPILED FILES ==============
+*.class
+
+# ============== PACKAGE FILES ==============
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ============== JVM CRASH LOGS ==============
+hs_err_pid*
+replay_pid*
+
+# ============== OS FILES ==============
+.DS_Store
+Thumbs.db
+
+# ============== ENVIRONMENT ==============
+*.env
+!*.env.example
