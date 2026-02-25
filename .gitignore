@@ -48,3 +48,33 @@ Thumbs.db
 # ============== ENVIRONMENT ==============
 *.env
 !*.env.example
+# ============== FRONTEND (React) ==============
+Internify-React Frontend/node_modules/
+Internify-React Frontend/dist/
+Internify-React Frontend/build/
+Internify-React Frontend/.env
+Internify-React Frontend/.env.local
+Internify-React Frontend/.env.development.local
+Internify-React Frontend/.env.test.local
+Internify-React Frontend/.env.production.local
+Internify-React Frontend/npm-debug.log*
+Internify-React Frontend/yarn-debug.log*
+Internify-React Frontend/yarn-error.log*
+
+# ============== BACKEND (Spring Boot) ==============
+Internify-Spring Backend/target/
+Internify-Spring Backend/.idea/
+Internify-Spring Backend/*.iml
+Internify-Spring Backend/.classpath
+Internify-Spring Backend/.project
+Internify-Spring Backend/.settings/
+Internify-Spring Backend/.vscode/
+Internify-Spring Backend/*.log
+
+# ============== GENERAL ==============
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.iml
